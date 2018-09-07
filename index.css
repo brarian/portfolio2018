@@ -138,9 +138,9 @@ background: #FFCD50;
 main .content1 {
   /* background: #ffdfdf; */
   grid-column: 1/ 3;
-  margin:  2vw;
+  margin:  2vw; 
 
-  /* height: 400px; */
+  /* height: 400.px; */
 }
 
 main .content2 {
