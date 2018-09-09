@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,41 @@
   <link rel="stylesheet" href="contact.css">
   <title>Document</title>
 </head>
+
 <body>
-<form class="contactForm">
-  <fieldset>
-    <label for="your-name">
+  <!-- begin nav bar -->
+  <nav class="navBar">
+    <div class="logo"> Brarian</div>
+    <div class="aboutMenu">ABOUT</div>
+    <div class="work">WORK</div>
+    <div class="navSkill">SKILLS</div>
+    <div class="contact">CONTACT</div>
+  </nav>
+
+  <!-- end nav bar -->
+  <form class="contactForm" action="b.namonywa@gmail.com" method="post" enctype="text/plain">
+    <fieldset class="fields">
+      <label for="your-name" class="yourName">
         Your Name
-      <input id="your-name" type="input" name="your-name" v>  
-    </label>
-    <label for="your-phone-number">
+        <input id="your-name" type="input" name="your-name" required>
+      </label> <br>
+      <label for="your-phone-number" class="yourPhone" >
         Your Phone Number
-      <input id="your-phone-number" type="tel" name="your-phone-number">  
-    </label>
-    <label for="your-email">
+        <input id="your-phone-number" type="tel" name="your-phone-number" required>
+      </label><br>
+      <label for="your-email" class="yourEmail" >
         Your Email
-      <input id="your-email" type="input" name="your-email">  
-    </label>
-    <label for="your-message">
+        <input id="your-email" type="input" name="your-email" required>
+      </label><br>
+      <label for="your-message" class="yourMessage">
         Your Message
-      <input id="your-message" type="textarea" name="your-message">  
-    </label>
-  </fieldset>
-</form>
+        <textarea rows="8" columns ="100" id="your-message" type="textarea" name="your-message" required>
+        </textarea>
+        </label><br>
+
+        <input type="submit" value="Send">
+    </fieldset>
+  </form>
 </body>
+
 </html>

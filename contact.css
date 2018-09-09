@@ -1,10 +1,81 @@
-body{
-  background: #509aaf;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-.contactForm{
-  grid-column: 2 / 4; 
+* {
+  box-sizing: border-box;
 }
 
-//
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 auto;
+}
+
+/* begin nav bar */
+
+.navBar li {
+  margin-right: auto;
+}
+
+nav {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 1em;
+  align-items: center;
+  text-align: center;
+  background: green;
+  height: 8vh;
+  padding-right: 17vh;
+  background: #FFCD50;
+}
+
+.logo {
+  width: 25vw;
+  background: #FFCD50;
+  font-family: 'Prata', serif;
+  font-size: 3.55vw;
+  text-align: center;
+}
+
+.contact {
+  grid-column: 8;
+  font-weight: bold;
+}
+
+.navSkill {
+  grid-column: 7;
+  font-weight: bold;
+}
+
+.work {
+  grid-column: 6;
+  font-weight: bold;
+}
+
+.aboutMenu {
+  grid-column: 5;
+  font-weight: bold;
+}
+ /* end nav bar */
+
+
+.contactForm{
+  background: #509aaf;
+  display: grid;
+  height: 80vh;
+  grid-template-columns: repeat( 4, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+
+ }
+.fields{
+  grid-row: 2 / 8;
+  grid-column: 2 / 4;
+  border: 1px solid black;
+} 
+
+.yourName{
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.yourPhone{
+  grid-row: 4;
+}
