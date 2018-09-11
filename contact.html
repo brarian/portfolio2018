@@ -22,23 +22,32 @@
   <!-- end nav bar -->
   <form class="contactForm" action="b.namonywa@gmail.com" method="post" enctype="text/plain">
     <fieldset class="fields">
-      <label for="your-name" class="yourName">
-        Your Name
-        <input id="your-name" type="input" name="your-name" required>
+      <div class="yourName">
+        <label for="your-name">
+      </div>
+      Your Name
+      <div><input id="your-name" type="input" name="your-name" required></div>
       </label> <br>
-      <label for="your-phone-number" class="yourPhone" >
-        Your Phone Number
-        <input id="your-phone-number" type="tel" name="your-phone-number" required>
-      </label><br>
-      <label for="your-email" class="yourEmail" >
-        Your Email
-        <input id="your-email" type="input" name="your-email" required>
-      </label><br>
-      <label for="your-message" class="yourMessage">
-        Your Message
-        <textarea rows="8" columns ="100" id="your-message" type="textarea" name="your-message" required>
-        </textarea>
-        </label><br>
+
+
+      <div class="yourEmail">
+        <div>
+          <label for="your-email">
+            Your Email
+          </label>
+        </div>
+        <div><input id="your-email" type="input" name="your-email" required></div>
+
+      </div>
+      <div class="yourMessage">
+        <div>
+          <label for="your-message">
+            Your Message
+          </label>
+        </div>
+        <div><textarea rows="8" columns="100" id="your-message" type="textarea" name="your-message" required>
+        </div>
+        </textarea></div>
 
         <input type="submit" value="Send">
     </fieldset>
