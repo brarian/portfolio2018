@@ -12,46 +12,52 @@
 <body>
   <!-- begin nav bar -->
   <nav class="navBar">
-    <div class="logo"> Brarian</div>
-    <div class="aboutMenu">ABOUT</div>
+    <div class="logo"> <a href="./index.html">Brarian</a></div>
+    <div class="aboutMenu"> <a href="./index.html">ABOUT</a></div>
     <div class="work">WORK</div>
     <div class="navSkill">SKILLS</div>
-    <div class="contact">CONTACT</div>
+    <div class="contact"><a href="./contact.html">CONTACT</a></div>
   </nav>
 
   <!-- end nav bar -->
-  <form class="contactForm" action="b.namonywa@gmail.com" method="post" enctype="text/plain">
-    <fieldset class="fields">
-      <div class="yourName">
-        <label for="your-name">
-      </div>
-      Your Name
-      <div><input id="your-name" type="input" name="your-name" required></div>
-      </label> <br>
+
+  <!-- begin sidebar -->
+  <main>
+    <aside>
+      My contact information
+    </aside>
+    <!-- end sidebar -->
 
 
-      <div class="yourEmail">
-        <div>
-          <label for="your-email">
-            Your Email
-          </label>
-        </div>
-        <div><input id="your-email" type="input" name="your-email" required></div>
+    <form class="contactForm" action="send_mail.php" method="post" enctype="text/plain">
 
-      </div>
-      <div class="yourMessage">
-        <div>
-          <label for="your-message">
-            Your Message
-          </label>
-        </div>
-        <div><textarea rows="8" columns="100" id="your-message" type="textarea" name="your-message" required>
-        </div>
-        </textarea></div>
+      <h1>Contact Me</h1>
+      <fieldset class="fields">
+        <label for="your-name" class="your-name"> Your Name
+          <input id="your-name" type="input" name="your-name"  size="45" required>
+        </label>
+        <br>
 
-        <input type="submit" value="Send">
-    </fieldset>
-  </form>
+
+        <label for="your-phone" class="your-phone"> Your Phone
+          <input id="your-phone" type="tel" name="telephone" size="45" >
+        </label>
+        <br>
+
+        <label for="your-email" class="your-email"> Your Email
+          <input id="your-email" type="input" name="your-email" size="45" required>
+        </label>
+        <br>
+
+        <label for="your-message" class="your-message"> Your Message
+          <textarea id="your-message" type="textarea" name="your-message" size="55"  required> </textarea>
+        </label>
+        <br>
+
+        <input class="submit-button" type="submit" value="Send">
+      </fieldset>
+    </form>
+  </main>
 </body>
 
 </html>

@@ -15,7 +15,7 @@ body {
 
 nav {
   padding-top: 1em;
-  padding-bottom: 3em;
+  padding-bottom: 4em;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 1em;
@@ -35,11 +35,39 @@ nav {
   text-align: center;
 }
 
+.logo a{
+  text-decoration: none;
+  color: black;
+}
+
+.logo a:visited{
+  text-decoration: none;
+  color: black;
+
+}
+
 .contact {
   grid-column: 8;
   font-weight: bold;
 }
 
+.aboutMenu a{
+  text-decoration: none;
+  color: black;
+}
+.aboutMenu a:visited{
+  text-decoration: none;
+color: black;
+}
+
+.contact a{
+  text-decoration: none;
+  color: black;
+}
+.contact a:visited{
+  text-decoration: none;
+color: black;
+}
 .navSkill {
   grid-column: 7;
   font-weight: bold;
@@ -54,15 +82,58 @@ nav {
   grid-column: 5;
   font-weight: bold;
 }
- /* end nav bar */
 
+/* end nav bar */
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
 
+aside {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  background:  #E656EA;
+}
+.fields {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  height: 90vh;
+  grid-column: 2 / -1;
+}
+
+.your-name {
+  grid-row: 2;
+
+}
+.your-phone{
+  grid-row: 3;
+}
+.your-email{
+  grid-row: 4;
+}
+.your-message{
+  grid-row: 5;
+}
+
+textarea#your-message{
+    width: 26vw;
+    height: 20vh;
+
+}
+.submit-button{
+  grid-row: 6;
+  height: 5vh;
+}
+/* 
 .contactForm{
   background: #509aaf;
   display: grid;
   height: 80vh;
-  grid-template-columns: repeat( 4, 1fr);
-  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat( 8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
 
  }
 .fields{
@@ -90,4 +161,4 @@ input#yourName{
 .yourMessage{
   grid-row: 3;
   grid-column: 1 /-1;
-}
+} */
