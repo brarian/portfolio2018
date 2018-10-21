@@ -89,7 +89,9 @@ color: black;
   text-decoration: none;
 color: black;
 }
-
+.menu_item{
+  font-size: 1vw;
+}
 .dropdown{
   grid-column: 4;
   color: black;
@@ -135,7 +137,8 @@ background: #FFCD50;
   background: #FFCD50;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 15% 15% 15% 15% 15% 15% 1fr;
+  grid-template-rows: repeat(12, 1fr);
+  height: 100vh;
 }
 .box-main{
   grid-column: 6 / 11;
@@ -154,8 +157,7 @@ background: #FFCD50;
 
 .description {
   grid-column: 6 /12;
-  grid-row: 4;
-  font-family: 'PT Serif', serif;
+  grid-row: 7 /9;  font-family: 'PT Serif', serif;
   font-size: 1.35vw;
   padding-right: 4vh;
 }
@@ -171,29 +173,26 @@ font-size: 8vw;
 
 .mainContent {
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
-
-  grid-template-rows: repeat(4, 1fr);
-  /* height: 100vh; */
-  /* background: #474a56;
-  max-width: 100%; */
+  grid-template-columns:repeat(2, auto);
+  grid-gap: 10px;
 }
-main h2{
-margin-right: auto;
-margin-left: auto;
+.main_content_title{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-row: 1;
+grid-column: 3;
 }
 main .content1{
   grid-row: 2;
 }
-main .content2{
-  grid-row: 3;
-}
 
 main .content3{
-  grid-row: 4;
+  grid-row: 2;
 }
 
-
+.main_content{
+  padding: 10px;
+}
 
 main .content3 {
   /* border: 2px solid black;
@@ -298,6 +297,72 @@ color: black;
     font-size: 7.5vw;
     text-align: center;
   }
+
+
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  nav {
+    padding-top: 1em;
+    padding-bottom: 3em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+    align-items: center;
+    text-align: center;
+    background: green;
+    height: 8vh;
+    background: #FFCD50;
+  }
+  
+  
+.contact {
+  grid-row: 1;
+  grid-column: 2;
+  font-weight: bold;
+}
+
+.navSkill {
+  grid-row: 1;
+
+  grid-column: 3;
+  font-weight: bold;
+}
+
+.work {
+  grid-row: 1;
+
+  grid-column: 4;
+  font-weight: bold;
+}
+
+.aboutMenu {
+  grid-row: 1;
+
+  grid-column: 5;
+  font-weight: bold;
+}
+.mainContent {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+/* main h2{
+margin-right: auto;
+margin-left: auto;
+} */
+main .content1{
+  grid-row: 2;
+}
+
+main .content3{
+  grid-row: 3;
+}
+
+.main_content{
+  padding: 10px;
+}
 
 
 }
