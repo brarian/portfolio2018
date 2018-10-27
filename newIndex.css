@@ -23,7 +23,28 @@ a, a:visited{
  color: black;
  font-weight: bold;
 }
-.nav_list {
+header{
+ display: flex;
+ margin-bottom: 20px;
+ padding-top: 1.5em;
+ margin-left: 2.5em;
+ margin-right: 2.5em;
+}
+
+.nav_list{
+ display: flex;
+}
+
+nav{
+ display: flex;
+}
+.nav_list_item{
+ padding-right: 1em;
+}
+.nav_right{
+ margin-left:auto;
+}
+/* .nav_list {
  display: flex;
  justify-content: flex-end;
  margin-bottom: 20px;
@@ -34,7 +55,7 @@ a, a:visited{
 
 .nav_list .nav_list_item {
  margin-right: 1em;
-}
+} */
 
 .accent1 {
  color: white;
@@ -92,9 +113,14 @@ footer {
     margin-left: 2.5em;
     margin-right: 2.5em;
 }
-
+.toggle{
+ display: none;
+}
 /* --------------------- */
 @media all and (max-width: 800px) {
+ .nav_list_item{
+  display: none;
+ }
  .about_me_desc {
   width: 100%;
   margin-left: 1.4em;
@@ -135,10 +161,21 @@ footer {
   width: 300px;
   height: 250px;
  }
+ .fa {
+  font-size: 36px;
+ }
 
- /*   .main    { flex: 3 0px; }
- .aside-1 { order: 1; } 
- .main    { order: 2; }
- .aside-2 { order: 3; }
- .footer  { order: 4; } */
+ .toggle {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  cursor: pointer;
+}
+.nav,
+.nav_list_item{
+  flex-direction: column;
+}
+.nav_right{    
+ margin-left:0;
+}
 }
