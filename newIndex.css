@@ -1,15 +1,17 @@
-*, *:before, *:after {
- box-sizing: inherit;
-}
+
 
 html {
  box-sizing: border-box;
-}
+ overflow-x: hidden;
+ height: 100%;
 
+}
+*{
+ margin: 0;
+}
 .wrapper {
  display: flex;
- flex-flow: row wrap;
- flex-wrap: wrap;
+ flex-direction: column;
  font-family: 'Ubuntu', sans-serif; 
  background: #FFCD50;
 
@@ -27,6 +29,7 @@ a, a:visited{
 
 header{
  display: flex;
+ flex: 0 0 auto;
  margin-bottom: 20px;
  padding-top: 1.5em;
  margin-left: 2.5em;
@@ -72,7 +75,7 @@ nav{
 .about {
  background: #FFCD50;
  display: flex;
- height: 100vh;
+ height: auto;
  margin-bottom: 20px;
 }
 
@@ -81,7 +84,14 @@ nav{
  margin-left: 7em;
  padding-top: 3em;
 }
+.my_work h2{
+ text-align: center;
+ display: block;
+}
 
+.my_work {
+ background: pink;
+}
 .my_work1, .my_work2 {
  width: 50%;
  height: auto;
@@ -98,6 +108,7 @@ margin-right: auto;
  padding-top: 30px;
  padding-bottom: 30px;
  background: pink;
+ width: 100%;
 }
 
 .my_work3 {
@@ -112,10 +123,14 @@ margin-right: auto;
 
 footer {
  display: flex;
- justify-content: space-between;
+ justify-content: center;
  padding-bottom: 1.5em;
     margin-left: 2.5em;
     margin-right: 2.5em;
+}
+
+footer div{
+ padding-left: 1em;
 }
 .toggle{
  display: none;
