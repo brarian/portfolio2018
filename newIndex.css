@@ -84,6 +84,13 @@ nav{
  margin-left: 7em;
  padding-top: 3em;
 }
+
+.about_me_desc img{
+  width: 600px;
+  height: 300px;
+  padding-left: 60px;
+  margin-bottom: 10px;
+}
 .my_work h2{
  text-align: center;
  display: block;
@@ -116,7 +123,7 @@ margin-right: auto;
  background: #cca2e1;
 }
 
-.about img, .my_work1 img, .my_work2 img, .my_work3 img {
+ .my_work1 img, .my_work2 img, .my_work3 img {
  width: 400px;
  height: 300px;
 }
@@ -188,7 +195,14 @@ footer div{
   width: 100%;
   padding: 0;
  }
-
+ .about_me_desc img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 250px;
+  padding-left: 0;
+ }
  .my_work1 img,
  .my_work2 img,
  .my_work3 img {
