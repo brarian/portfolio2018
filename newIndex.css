@@ -55,18 +55,6 @@ nav{
 .nav_right{
  margin-left:auto;
 }
-/* .nav_list {
- display: flex;
- justify-content: flex-end;
- margin-bottom: 20px;
- padding-top: 1.5em;
- margin-left: 2.5em;
- margin-right: 2.5em;
-}
-
-.nav_list .nav_list_item {
- margin-right: 1em;
-} */
 
 .accent1 {
  color: white;

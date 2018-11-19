@@ -1,0 +1,6 @@
+{
+ "css.trace.server": "messages",
+ "prettier.stylelintIntegration": false,
+ "css.validate": false,
+ "stylelint.enable": true
+}
