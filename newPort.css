@@ -1,0 +1,235 @@
+.wrapper {
+  height: 100%;
+  max-width: 100%;
+  margin: 0 0;
+  font-family: 'Noto Serif SC', serif;
+
+}
+
+
+header{
+  background: white; 
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 99%;
+  top:0;
+  line-height: 70px;
+  border-bottom: 2px solid grey;
+
+  }
+
+  a:visited, a:link {
+    text-decoration: none;
+    color: black;
+  }
+.content{
+  margin-top: calc(90px);
+  /* margin-top: 10px;  */
+}
+img{
+  width: 600px;
+  height: 300px;
+}
+/* *****************    MY WORK START  ************************ */
+
+.my_work h2{
+  text-align: center;
+  display: block;
+}
+
+.my_work img{
+  width: 570px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.my_work1, .my_work2 {
+  width: 48%;
+  height: auto;
+
+ }
+ .my_work1, .my_work2 img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 25px;
+ }
+ .row1 {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+ }
+
+ 
+ .my_work3 img{
+  width: 570px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ /* ***********************  MY WORK END ****************** */
+
+.contact-item {
+    display: inline-block; 
+    width: 50%; 
+    white-space: normal;
+}
+.contact-two {
+    display: inline-flex;
+    justify-content: space-evenly;
+    color: grey;
+    float: right;
+}
+
+.contact-two i{
+    color: grey
+}
+.icons{ 
+
+}
+
+/* **************** SKILLS START ***************** */
+.images img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.skills{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #a5bdfd;
+  float: right;
+  float: left;
+}
+ .skill_section h2 {
+  text-align: center;
+ 
+ }
+ 
+ .skills ul li{ 
+  list-style-type: none;
+  border: 2.2px solid black;
+  padding: 1em;
+  display: inline-flex;
+  margin-left: 1em;
+  margin-bottom: 1em;
+ }
+ .skills ul {
+  text-align: center;
+ }
+/* **************** SKILLS END ***************** */
+
+
+
+
+@media (max-width: 800px) {
+
+  .wrapper{
+   max-width: 100%;
+  }
+  header { 
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+  align-content: flex-start;
+  padding-bottom: 1em; 
+  }
+  .nav_list_item{
+    background-color: lightgrey;
+    height: 2.2em;
+    width: 50%;
+    text-align: center;
+    line-height: 2em;
+  }
+  header .logo {
+    width: 100%;
+    order: -1;
+    height: 2em;
+  }
+
+  a:visited, a:link {
+    text-decoration: none;
+  }
+  img{
+    padding-top: 1.2em;
+    width: 362px;
+    height: 313px;
+  }
+
+
+
+/* ****************************** */
+  img{
+    width: 300px;
+    height: 250px;
+   }
+   .my_work h2{
+    text-align: center;
+  }
+  
+  .my_work img{
+    width: 300px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .my_work1, .my_work2 {
+    width: 100%;
+    height: auto;
+  
+  }
+   .row1 {
+    display: inline-block;
+    padding: 0;
+   }
+/* **************************   */
+ .contact h3{
+   text-align: center;
+   color: grey;
+ } 
+
+.contact-item {
+  display: inline-block; 
+}
+.contact_footer{
+  display: flex;
+  flex-direction: column;
+}
+.contact-two{
+  display: flex;
+  margin-top: 5px;
+
+}
+
+.skill_section .images{
+  text-align: center;
+}
+}
+
+
+/* ****************CONTACT ME ****************** */
+.contact_content{
+margin-top: 9em;
+padding-bottom: 100px;
+
+}
+
+.contact_text{
+  font-size: 16pt;
+}
+
+.contact_content a:visited, a:link {
+  text-decoration: none;
+  color: grey;
+}
+
+.contact-item{
+  font-size: 12pt;
+}

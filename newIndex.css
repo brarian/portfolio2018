@@ -196,7 +196,7 @@ footer div{
   font-family: 'Abril Fatface', cursive;
   padding-bottom: 10px; 
 }
-.contact {
+/* .contact {
   text-align: center;
   font-family: 'Ubuntu', sans-serif; 
   padding-bottom: 50px;
@@ -205,7 +205,23 @@ footer div{
 
 .info{
   font-size: 15pt;
+} */
+.contact {
+  white-space: nowrap;
 }
+
+.contact-item {
+  display: inline-block; 
+  width: 50%; 
+  white-space: normal;
+}
+.contact-two {
+  display: inline-flex;
+  justify-content: space-between;
+  color: black;
+}
+
+
 /* --------------------- */
 @media all and (max-width: 800px) {
  .nav_list_item{
