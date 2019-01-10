@@ -1,56 +1,87 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif+SC");
 
 .contact_whole {
-  padding: 0.6em;
   font-family: "Noto Serif SC", serif;
+  padding-left: 7em;
+}
+.contact_main{
+  padding-left: 1em;
 }
 h3 {
   color: grey;
   font-size: 20pt;
   line-height: 1.5em;
 }
-h4{
-    font-size: 15pt;
-    line-height: .05em;
+h4 {
+  font-size: 15pt;
+  line-height: 0.05em;
+}
+.contact_text{
+padding-right: 150px
 }
 .contact_whole li {
   list-style: none;
 }
+
 .contact_text li a {
   color: black;
 }
 
-.sameline{
+.sameline {
   display: flex;
   flex-direction: row;
-
 }
 
-.contact-two{
-    color: black;
+.contact-two {
+  color: black;
   width: 400px;
- 
 }
 
-.contact-two ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-
+.contact-two ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
 }
+ ul{
+   padding: 0 0;
+ }
+
+ @media only screen and (max-width: 1000px) {
+  .contact_whole {
+    padding-left: 1em;
+  }
+  .contact_main{
+    padding-left: 1em;
+  }
+  .contact_text{
+    padding-right: 120px
+    }
+    .contact-two {
+      color: black;
+      width: 400px;
+    }
+    
+ }
 
 @media only screen and (max-width: 726px) {
- .sameline{
+  .contact_whole {
+    font-family: "Noto Serif SC", serif;
+    padding-left: 1em;
+  }
+  .contact_main{
+    padding-left: 1em;
+  }
+  .sameline {
     display: block;
   }
-  .contact-one{
+  .contact-one {
     width: 100%;
 
   }
-  
-  .contact-two{
+  .contact-two {
     width: 70vw;
     margin-right: 10vw;
+    padding-left: 1.5em;
   }
-  }
-  
+}

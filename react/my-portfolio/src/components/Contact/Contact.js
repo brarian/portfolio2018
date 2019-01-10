@@ -10,7 +10,7 @@ class Contact extends Component {
     return (
       <div className="contact_whole">
         <main className="contact_content">
-          <div>
+          <div className="contact_main">
             <h3 className="grey_text">
               Currently available for web development opportunities
             </h3>{" "}
