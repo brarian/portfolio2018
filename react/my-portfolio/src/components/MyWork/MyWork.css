@@ -1,0 +1,23 @@
+.body{
+    padding: .6em;
+}
+h2{
+text-align: center;
+}
+.mywork_whole{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.mywork_whole > div {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    margin-right: 1em;
+    margin-bottom: .6em;
+    padding: .2em;
+}

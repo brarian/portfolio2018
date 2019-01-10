@@ -1,0 +1,18 @@
+.about_me_desc {
+  padding-top: 3vh;
+  padding: .6em;
+}
+img {
+  width: 550px;
+  height: 350px;
+  margin-bottom: 10px;
+  float: left;
+  padding-right: 1em;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.description {
+  padding-top: 19vh;
+}
