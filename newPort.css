@@ -24,6 +24,39 @@ header{
     text-decoration: none;
     color: black;
   }
+.name_view{
+  background-color: #242582;
+  text-shadow: 2px 2px grey;
+  height: 90vh; 
+  width: 100%;
+  text-align: center;
+}
+
+
+.name_view_title{
+  color: white;
+  font-weight: bold;
+  position: relative;
+  font-size: 80px;
+top: 40%;
+transform: translateY(-50%);
+font-family: 'Libre Baskerville', serif;
+text-align: center;
+letter-spacing: .3rem;
+}
+.name_view_title_sub{
+  color: white;
+  font-weight: bold;
+  position: relative;
+  font-size: 40px;
+  top: 35%;
+
+}
+.fas fa-angle-down{
+  position: relative;
+
+  top: 45%;
+}
 .content{
   margin-top: calc(90px);
   /* margin-top: 10px;  */
@@ -161,8 +194,27 @@ img{
     width: 362px;
     height: 313px;
   }
+/* ****************************** */
 
-
+  .name_view_title{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+  top: 40%;
+  transform: translateY(-50%);
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  letter-spacing: .3rem;
+  }
+  .name_view_title_sub{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    font-size: 16px;
+    top: 40%;
+  
+  }
 
 /* ****************************** */
   img{

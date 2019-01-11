@@ -1,17 +1,51 @@
 .about_me_desc {
   padding-top: 3vh;
 }
-img {
+/* img {
+
+} */
+.responsive {
+  max-width: 100%;
   width: 550px;
   height: 350px;
   margin-bottom: 10px;
   float: left;
   padding-right: 1em;
 }
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
 .description {
   padding-top: 19vh;
+  margin: 1em;
+}
+
+
+@media only screen and (max-width: 1055px) {
+  .description {
+    padding-top: 8vh;
+    margin: 1em;
+  
+  }
+
+
+}
+
+@media only screen and (max-width: 939px) {
+  .about_me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .responsive {
+    max-width: 100%;
+    width: 550px;
+    height: 350px;
+    padding-right: 1em;
+  
+  }
+  .description {
+    padding-top: 8vh;
+    margin: 1em;
+  
+  }
+
 }

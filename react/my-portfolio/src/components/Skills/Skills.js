@@ -5,7 +5,7 @@ class Skills extends Component {
     return (
       <div>
         <h2>SKILLS</h2>
-        <div class="images">
+        <div className="images">
           <img alt="skills_image"src="/images/javascript.png" /> 
           <img alt="skills_image"src="/images/es6.png" />
           <img alt="skills_image"src="/images/node.jpg" /> 

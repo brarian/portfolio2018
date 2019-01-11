@@ -6,8 +6,10 @@ class About extends Component {
   render() {
     return (
       <div className={About.js} >
-        <section class="about_me_desc">
+        <section className="about_me">
+        <div>
         <img src={austin} alt="welcome to austin mural" className="responsive"/> 
+        </div>
         <div className="description">
           <h3>I'm Brarian, a full stack web developer.</h3>
             I'm an experienced Operations Analyst with a demonstrated history of
