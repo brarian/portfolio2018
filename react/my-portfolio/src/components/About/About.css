@@ -13,18 +13,51 @@
   padding-right: 1em;
 }
 .description {
-  padding-top: 19vh;
+  padding-top: 1vh;
   margin: 1em;
 }
+.intro{
+  margin-bottom: 6px;
+  margin-top: 0px;
+  line-height: 22px;
+}
 
+.intro1{
+  margin-top: 5px;
+  margin-bottom: -25px;
 
+}
+
+.skills{
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 40vw;
+  justify-content: center;
+  padding-top: 5px;
+}
+ul.skills li{
+  list-style: none;
+  border: 1px solid black;
+  margin: .3em;
+  padding: .2em;
+  box-shadow: 5px 5px grey;
+
+}
 @media only screen and (max-width: 1055px) {
   .description {
-    padding-top: 8vh;
-    margin: 1em;
-  
+    padding-top: .5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
   }
-
+  .intro{text-align: center}
+  .skills{
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    justify-content: center;
+  }
 
 }
 
@@ -43,9 +76,9 @@
   
   }
   .description {
-    padding-top: 8vh;
-    margin: 1em;
+    padding-top: .5vh;
   
   }
+  .intro{text-align: center}
 
 }

@@ -3,8 +3,10 @@ import { Route, NavLink, BrowserRouter } from "react-router-dom";
 import About from "../About/About";
 import MyWork from "../MyWork/MyWork";
 import Contact from "../Contact/Contact";
-import Skills from "../Skills/Skills";
 import "./Nav.css";
+
+
+
 class Nav extends Component {
   render() {
     return (
@@ -19,10 +21,6 @@ class Nav extends Component {
               <li>
                 <NavLink to="/work">My Work</NavLink>
               </li>
-
-              <li>
-                <NavLink to="/skills">Skills</NavLink>
-              </li>
               <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
@@ -32,11 +30,11 @@ class Nav extends Component {
           <Route exact path="/" component={About} />
           <Route path="/work" component={MyWork} />
           <Route path="/contact" component={Contact} />
-          <Route path="/skills" component={Skills} />
         </div>
       </BrowserRouter>
     );
   }
+
 }
 
 export default Nav;
