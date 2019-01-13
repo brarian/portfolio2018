@@ -9,7 +9,6 @@ class MyWork extends Component {
   render() {
     return (
       <div className="body">
-        <h2>MY WORK</h2>
         <main className="mywork_whole">
           <div className="my_work1">
             <img src={shipped} alt="Shipped Homepage" className="responsive1" />
@@ -68,7 +67,7 @@ class MyWork extends Component {
               src={kepShowNotes}
               alt="Little Mixer Homepage"
               className="responsive2"
-              
+
             />
           </div>
 

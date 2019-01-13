@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif+SC");
-
+html{
+  background-color: #e7dfdd;
+}
 .contact_whole {
   font-family: "Noto Serif SC", serif;
   padding-left: 7em;

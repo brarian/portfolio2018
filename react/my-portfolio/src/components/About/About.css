@@ -1,3 +1,6 @@
+html{
+  background-color: #e7dfdd;
+}
 .about_me_desc {
   padding-top: 3vh;
 }
@@ -37,10 +40,10 @@
 }
 ul.skills li{
   list-style: none;
-  border: 1px solid black;
+  border: 1px solid #373737;
   margin: .3em;
   padding: .2em;
-  box-shadow: 5px 5px grey;
+  box-shadow: 5px 5px #C0B283;
 
 }
 @media only screen and (max-width: 1055px) {

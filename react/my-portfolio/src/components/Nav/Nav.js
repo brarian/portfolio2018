@@ -14,7 +14,7 @@ class Nav extends Component {
         <div className={Nav.css}>
           <header>
             <ul>
-              <li>Logo</li>
+              <li className="logo">Brarian</li>
               <li>
                 <NavLink to="/">About</NavLink>
               </li>
