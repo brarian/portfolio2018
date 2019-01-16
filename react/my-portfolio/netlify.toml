@@ -1,0 +1,4 @@
+[build]
+base = "2018Portfolio/"
+publish = "2018Portfolio/build/"
+command = "yarn build"
