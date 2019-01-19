@@ -10,13 +10,13 @@ import "./Nav.css";
 class Nav extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <div className={Nav.css}>
           <header>
             <ul>
               <li className="logo">Brarian</li>
               <li>
-                <NavLink to="/">About</NavLink>
+                <NavLink to="/home">About</NavLink>
               </li>
               <li>
                 <NavLink to="/work">My Work</NavLink>
