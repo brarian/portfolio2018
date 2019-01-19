@@ -27,7 +27,7 @@ class Nav extends Component {
             </ul>
           </header>
           <main className="content" />
-          <Route exact path="/" component={About} />
+          <Route exact path="/about" component={About} />
           <Route path="/work" component={MyWork} />
           <Route path="/contact" component={Contact} />
         </div>
