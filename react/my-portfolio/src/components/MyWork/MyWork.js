@@ -20,12 +20,12 @@ class MyWork extends Component {
               kind fan merchendise made by etsy crafters! Shipped! was built
               using jQuery, JavaScript, CSS, HTML, and BootStrap. <br />
               <button>
-                <a href="https://brarian.github.io/shippedapp/index.html">
+                <a href="https://brarian.github.io/shippedapp/index.html" class="diff">
                   Live
                 </a>
               </button>
-              <button>
-                <a href="https://github.com/brarian/shippedapp">Code</a>
+              <button >
+                <a href="https://github.com/brarian/shippedapp" class="diff">Code</a>
               </button>
             </span>
           </div>
@@ -47,10 +47,10 @@ class MyWork extends Component {
               Little Mixer was built with Node, React, Redux, and is styled with
               Foundation. <br />
               <button>
-                <a href="https://sleepy-nobel-53296b.netlify.com/">Live</a>
+                <a href="https://sleepy-nobel-53296b.netlify.com/" class="diff">Live</a>
               </button>
               <button>
-                <a href="https://github.com/brarian/new-party-app">Code</a>
+                <a href="https://github.com/brarian/new-party-app" class="diff">Code</a>
               </button>
             </span>
           </div>
